@@ -18,9 +18,10 @@ body{
   
   
   .image-container{
-	position: absolute;
+	position: relative;
 	transition: transform 0.2s;
 	transform: scale(.50);
+	margin: 0%;
   }
   
   .image-container:hover{
