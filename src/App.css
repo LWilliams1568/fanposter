@@ -23,6 +23,10 @@ body{
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
+	
+	  }
+
+	  .sizing{
 		transform: scale(.85);
 	  }
   }
@@ -31,8 +35,9 @@ body{
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
-		transform: scale(.70);
-		margin-bottom: 0%;
+	  }
+	  .sizing{
+		transform: scale(.85);
 	  }
   }
   
