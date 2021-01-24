@@ -37,8 +37,15 @@ body{
 		transition: transform 0.2s;
 	  }
 	  .sizing{
-		transform: scale(.50);
-		margin-bottom: 0%;
+		transform: scale(.70);
+		margin-bottom: 0;
+		margin-top: 0;
+
+	  }
+	  .fixMargin{
+		margin-bottom: 0;
+		margin-top: 0;
+ 
 	  }
   }
   
