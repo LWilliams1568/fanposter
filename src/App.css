@@ -37,7 +37,8 @@ body{
 		transition: transform 0.2s;
 	  }
 	  .sizing{
-		transform: scale(.85);
+		transform: scale(.50);
+		margin-bottom: 0%;
 	  }
   }
   
