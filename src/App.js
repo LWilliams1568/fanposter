@@ -84,10 +84,10 @@ const App = () => {
 					favouriteComponent={AddFavourites}
 				/>
 			</div>
-			<div className='row d-flex align-items-center mt-4 mb-4 movie app'>
+			<div className='row d-flex align-items-center mt-0 mb-0 movie app'>
 				<MovieListHeading heading='Favorites' />
 			</div>
-			<div className='row movie-app sizing'>
+			<div className='row movie-app sizing  mt-0 mb-0'>
 				<MovieList
 					movies={favourites}
 					handleFavouritesClick={removeFavouriteMovie}
