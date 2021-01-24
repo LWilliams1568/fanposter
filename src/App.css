@@ -7,11 +7,13 @@ body {
 .movie-app > .row {
 	overflow-x: auto;
 	flex-wrap: nowrap;
+
 }
 
 .image-container {
 	position: relative;
 	transition: transform 0.2s;
+	transform: scale(0.90);
 }
 
 .image-container:hover {
@@ -34,3 +36,4 @@ body {
 	padding: 20px;
 	text-align: center;
 }
+
