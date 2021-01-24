@@ -24,7 +24,6 @@ body{
 		position: relative;
 		transition: transform 0.2s;
 		transform: scale(.85);
-		margin: 0%;
 	  }
   }
 
@@ -33,7 +32,7 @@ body{
 		position: relative;
 		transition: transform 0.2s;
 		transform: scale(.70);
-		margin: 0%;
+		margin-bottom: 0%;
 	  }
   }
   
