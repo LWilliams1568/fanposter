@@ -4,7 +4,7 @@ import './App.css';
 import MovieList from './components/MovieList';
 import MovieListHeading from './components/MovieListHeading';
 import SearchBox from './components/SearchBox';
-import AddFavourites from './components/AddFavourites';
+import AddFavourites from './components/AddFavorites';
 import RemoveFavourites from './components/RemoveFavourites';
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
 	const [searchValue, setSearchValue] = useState('');
 
 	const getMovieRequest = async (searchValue) => {
-		const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=263d22d8`;
+		const url = `https://www.omdbapi.com/?s=${searchValue}&apikey=da28d6fc`;
 
 		const response = await fetch(url);
 		const responseJson = await response.json();
@@ -42,9 +42,23 @@ const App = () => {
 	};
 
 	const addFavouriteMovie = (movie) => {
-		const newFavouriteList = [...favourites, movie];
-		setFavourites(newFavouriteList);
-		saveToLocalStorage(newFavouriteList);
+		const newFavouriteList = [...favourites, movie];{
+			if (favourites.includes(movie)== false){
+				setFavourites(newFavouriteList);
+				saveToLocalStorage(newFavouriteList);
+			}
+			
+			else{
+				alert("This movie is already in your Favorites")
+			}
+				
+				
+		}
+			
+	
+		
+	
+		
 	};
 
 	const removeFavouriteMovie = (movie) => {
@@ -57,22 +71,23 @@ const App = () => {
 	};
 
 	return (
-		<div className='container-fluid movie-app'>
-			<div className='row d-flex align-items-center mt-4 mb-4'>
-				<MovieListHeading heading='Movies' />
+		<div className='container-fluid'>
+			<div className='row d-flex align-items-center mt-4 mb-4 movie-app'>
+        
+				<MovieListHeading heading='Movies L' />
 				<SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
 			</div>
-			<div className='row'>
+			<div className='row d movie-app'>
 				<MovieList
 					movies={movies}
 					handleFavouritesClick={addFavouriteMovie}
 					favouriteComponent={AddFavourites}
 				/>
 			</div>
-			<div className='row d-flex align-items-center mt-4 mb-4'>
-				<MovieListHeading heading='Favourites' />
+			<div className='row d-flex align-items-center mt-4 mb-4 movie app'>
+				<MovieListHeading heading='Favorites' />
 			</div>
-			<div className='row'>
+			<div className='row movie-app'>
 				<MovieList
 					movies={favourites}
 					handleFavouritesClick={removeFavouriteMovie}

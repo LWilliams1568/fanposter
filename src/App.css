@@ -1,39 +1,47 @@
-body {
-	background: #141414;
-	color: #ffffff;
-
-}
-
-.movie-app > .row {
-	overflow-x: auto;
-	flex-wrap: nowrap;
-
-}
-
-.image-container {
+body{
+	background: black;
+	color: white;
+  }
+  
+  
+  .movie-app::-webkit-scrollbar {
+	display: none;
+  }
+  
+  
+  .movie-app {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
+  overflow-x: scroll;
+  flex-wrap: nowrap;
+  }
+  
+  
+  .image-container{
 	position: relative;
 	transition: transform 0.2s;
-	transform: scale(0.75);
-}
-
-.image-container:hover {
-	cursor: pointer;
-	transform: scale(1.1);
-}
-
-.image-container:hover .overlay {
+	transform: scale(.85);
+  }
+  
+  .image-container:hover{
+   cursor: pointer; 
+   transform: scale(1.1);
+  }
+  
+  .image-container:hover .overlay{
 	opacity: 1;
-}
-
-.overlay {
+  }
+  .overlay{
 	position: absolute;
-	background: rgba(0, 0, 0, 0.8);
+	background: black;
 	width: 100%;
 	transition: 0.5s ease;
-	opacity: 0;
+	opacity: 0 ;
 	bottom: 0;
-	font-size: 20px;
-	padding: 20px;
+	font-size: 28px;
+	padding:20px;
 	text-align: center;
-}
-
+  
+  }
+  
+  
