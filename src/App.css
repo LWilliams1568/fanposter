@@ -16,12 +16,25 @@ body{
   flex-wrap: nowrap;
   }
   
-  
-  .image-container{
-	position: relative;
-	transition: transform 0.2s;
-	transform: scale(.85);
-	margin: 0%;
+
+
+  @media screen and (max-width: 992px) {
+	 
+	.image-container{
+		position: relative;
+		transition: transform 0.2s;
+		transform: scale(.85);
+		margin: 0%;
+	  }
+  }
+
+  @media screen and (max-width: 600px) {
+	.image-container{
+		position: relative;
+		transition: transform 0.2s;
+		transform: scale(.70);
+		margin: 0%;
+	  }
   }
   
   .image-container:hover{
