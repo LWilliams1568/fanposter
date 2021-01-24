@@ -13,7 +13,7 @@ body {
 .image-container {
 	position: relative;
 	transition: transform 0.2s;
-	transform: scale(0.50);
+	transform: scale(0.75);
 }
 
 .image-container:hover {
