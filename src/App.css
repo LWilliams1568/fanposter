@@ -1,6 +1,8 @@
 body{
 	background: black;
 	color: white;
+	overflow-x: hidden;
+	
   }
   
   
@@ -12,8 +14,10 @@ body{
   .movie-app {
   -ms-overflow-style: none; 
   scrollbar-width: none;  
-  overflow-x: scroll;
   flex-wrap: nowrap;
+  overflow: scroll;
+  
+
   }
   
 
@@ -24,10 +28,15 @@ body{
 		position: relative;
 		transition: transform 0.2s;
 	
+	
 	  }
 
 	  .sizing{
 		transform: scale(.85);
+			overflow: scroll;
+
+		
+	
 	  }
   }
 
@@ -40,6 +49,7 @@ body{
 		transform: scale(.70);
 		margin-bottom: 0;
 		margin-top: 0;
+		
 
 	  }
 	  .fixMargin{
