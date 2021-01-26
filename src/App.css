@@ -2,6 +2,7 @@ body{
 	background: black;
 	color: white;
 	overflow-x: hidden;
+	
   }
   
   
@@ -18,14 +19,16 @@ body{
   
 
   }
-
   
 
+
+  @media screen and (max-width: 992px) {
 	 
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
-		
+		transform: scale(.50);
+	
 	
 	  }
 
@@ -36,7 +39,30 @@ body{
 		
 	
 	  }
-  
+  }
+
+  @media screen and (max-width: 600px) {
+	.image-container{
+		position: relative;
+		transition: transform 0.2s;
+		transform: scale(.70);
+	  }
+	  .sizing{
+		margin-bottom: 0;
+		margin-top: 0;
+		
+
+	  }
+	  .fixMargin{
+		margin-bottom: 0;
+		margin-top: 0;
+ 
+	  }
+	  .image-container:hover{
+		cursor: pointer; 
+		transform: scale(.75) !important;
+	   }
+  }
   
   .image-container:hover{
    cursor: pointer; 
@@ -59,22 +85,4 @@ body{
   
   }
   
-  .logoStyle{
-	  color: red;
-	  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	  align-items: center;
-	  margin-top: 5;
-
-	  
-  }
-
-  .searchBar{
-	border: 5px solid red;
-	font-size: 30px;
-	color: white;
-	background-color: black;
-	
-  }
-
-
-
+  
