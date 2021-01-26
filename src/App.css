@@ -43,7 +43,7 @@ body{
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
-		transform: scale(.70);
+		transform: scale(.70); 
 	  }
 	
 
