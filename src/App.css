@@ -21,10 +21,13 @@ body{
 .image-container{
 	position: relative;
 	transition: transform 0.2s;
-	transform: scale(.80);
+	transform: scale(.50);
 	
 }
 
+.smaller{
+	transform: scale(.50);
+}
 
 
 .sizing{
