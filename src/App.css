@@ -32,8 +32,8 @@ body{
 	  }
 
 	  .sizing{
-		transform: scale(.70);
-			overflow: scroll;
+		transform: scale(.50);
+		overflow: scroll;
 
 		
 	
