@@ -47,17 +47,8 @@ body{
 		transition: transform 0.2s;
 		transform: scale(.70);
 	  }
-	  .sizing{
-		margin-bottom: 0;
-		margin-top: 0;
-		
+	
 
-	  }
-	  .fixMargin{
-		margin-bottom: 0;
-		margin-top: 0;
- 
-	  }
 	  .image-container:hover{
 		cursor: pointer; 
 		transform: scale(.75) !important;
