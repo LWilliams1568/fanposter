@@ -25,20 +25,20 @@ body{
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
+		transform: scale(.50)!important;
 	}
 
 	.sizing{
 		overflow: scroll;
 	}
-	.smaller{
-		 transform: scale(.50)!important;
-	}
+
 }
 
 @media screen and (max-width: 600px) {
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
+		transform: scale(.70);
 	}
 	.sizing{
 		margin-bottom: 0;
