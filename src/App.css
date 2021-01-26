@@ -27,7 +27,7 @@ body{
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
-		transform: scale(.50);
+		transform: scale(.60);
 	
 	
 	  }
@@ -76,4 +76,22 @@ body{
   
   }
   
-  
+  .logoStyle{
+	  color: red;
+	  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	  align-items: center;
+	  margin-top: 5;
+
+	  
+  }
+
+  .searchBar{
+	border: 5px solid red;
+	font-size: 30px;
+	color: white;
+	background-color: black;
+	
+  }
+
+
+
