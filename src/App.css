@@ -3,81 +3,65 @@ body{
 	color: white;
 	overflow-x: hidden;
 	
-  }
+}
   
   
-  .movie-app::-webkit-scrollbar {
+.movie-app::-webkit-scrollbar {
 	display: none;
-  }
+}
   
   
-  .movie-app {
+.movie-app {
   -ms-overflow-style: none; 
   scrollbar-width: none;  
   flex-wrap: nowrap;
   overflow: scroll;
-  
-  
-
-  }
+}
   
 
 
-  @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
 	 
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
-	
-	
-	
-	  }
+	}
 
-	  .sizing{
-	
+	.sizing{
 		overflow: scroll;
+	}
+	.smaller{
+		 transform: scale(.50)!important;
+	}
+}
 
-	  }
-	  .smaller{
-		  transform: scale(.50);
-	  }
-  }
-
-  @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
-	  }
-	  .sizing{
-		margin-bottom: 0;
-		margin-top: 0;
-		
-
-	  }
-	  .fixMargin{
-		margin-bottom: 0;
-		margin-top: 0;
- 
-	  }
-	  .image-container:hover{
-		cursor: pointer; 
-		transform: scale(.75) !important;
-	   }
-
-	   .smaller{
-		transform: scale(.50);
 	}
-  }
+	.sizing{
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+} 
+	  
+.image-container:hover{
+	cursor: pointer; 
+	transform: scale(.75) !important;
+}
+
+
+.image-container:hover{
+	cursor: pointer; 
+	transform: scale(1.1);
+}
   
-  .image-container:hover{
-   cursor: pointer; 
-   transform: scale(1.1);
-  }
-  
-  .image-container:hover .overlay{
+.image-container:hover .overlay{
 	opacity: 1;
-  }
-  .overlay{
+}
+
+.overlay{
 	position: absolute;
 	background: black;
 	width: 100%;
@@ -87,7 +71,6 @@ body{
 	font-size: 28px;
 	padding:20px;
 	text-align: center;
-  
-  }
+}
   
   
