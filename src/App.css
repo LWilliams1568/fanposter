@@ -18,10 +18,9 @@ body{
   
 
   }
+
   
 
-
-  @media screen and (max-width: 992px) {
 	 
 	.image-container{
 		position: relative;
@@ -37,21 +36,7 @@ body{
 		
 	
 	  }
-  }
-
-  @media screen and (max-width: 600px) {
-	.image-container{
-		position: relative;
-		transition: transform 0.2s;
-		transform: scale(.70); 
-	  }
-	
-
-	  .image-container:hover{
-		cursor: pointer; 
-		transform: scale(.75) !important;
-	   }
-  }
+  
   
   .image-container:hover{
    cursor: pointer; 
