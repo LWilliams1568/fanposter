@@ -58,6 +58,10 @@ body{
 		margin-top: 0;
  
 	  }
+	  .image-container:hover{
+		cursor: pointer; 
+		transform: scale(.75) !important;
+	   }
   }
   
   .image-container:hover{
