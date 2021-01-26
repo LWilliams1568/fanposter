@@ -21,52 +21,26 @@ body{
 .image-container{
 	position: relative;
 	transition: transform 0.2s;
+	transform: scale(.80);
 	
 }
 
 
 
-@media screen and (max-width: 992px) {
-
-	.sizing{
-		overflow: scroll;
-	}
-
-
-	.image-container:hover .overlay{
-		opacity: 1;
-	}
-	.overlay{
-		position: absolute;
-		background: black;
-		width: 100%;
-		transition: 0.5s ease;
-		opacity: 0 ;
-		bottom: 0;
-		font-size: 28px;
-		padding:20px;
-		text-align: center;
-	}
-	
+.sizing{
+	overflow: scroll;
 }
 
-@media screen and (max-width: 600px) {
-	.image-container{
-		position: relative;
-		transition: transform 0.2s;
-		
-	}
-	.sizing{
-		margin-bottom: 0;
-		margin-top: 0;
-	}
-} 
-	  
+
+.image-container:hover .overlay{
+	opacity: 1;
+}
+
 
 
 .image-container:hover{
 	cursor: pointer; 
-	transform: scale(1.1);
+	transform: scale(1.0);
 }
   
 .image-container:hover .overlay{
@@ -84,5 +58,18 @@ body{
 	padding:20px;
 	text-align: center;
 }
-  
-  
+
+
+@media screen and (max-width: 600px) {
+	.image-container{
+		position: relative;
+		transition: transform 0.2s;
+		transform: scale(.50) !important;
+		
+	}
+	.sizing{
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+} 
+	  
