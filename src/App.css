@@ -46,7 +46,7 @@ body{
 		transition: transform 0.2s;
 	  }
 	  .sizing{
-		transform: scale(.50);
+		transform: scale(.70);
 		margin-bottom: 0;
 		margin-top: 0;
 		
