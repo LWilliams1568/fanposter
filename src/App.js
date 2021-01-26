@@ -74,7 +74,7 @@ const App = () => {
 	return (
 		<div className='container-fluid'>
 		
-			<div className='row d-flex mb-4 movie-app fixMargin'>
+			<div className='row d-flex align-items-center mt-4 mb-4 movie-app fixMargin'>
 				
 				<Logo/>
 				<SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />

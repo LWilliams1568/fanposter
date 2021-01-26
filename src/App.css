@@ -2,8 +2,6 @@ body{
 	background: black;
 	color: white;
 	overflow-x: hidden;
-	transform: scale(.50);
-	
   }
   
   
@@ -28,8 +26,7 @@ body{
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
-		transform: scale(.50);
-	
+		
 	
 	  }
 
