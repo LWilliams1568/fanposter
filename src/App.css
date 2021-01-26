@@ -16,7 +16,7 @@ body{
   scrollbar-width: none;  
   flex-wrap: nowrap;
   overflow: scroll;
-  transform: scale(.50) !important;
+  
   
 
   }
@@ -37,8 +37,9 @@ body{
 	
 		overflow: scroll;
 
-		
-	
+	  }
+	  .smaller{
+		  transform: scale(.50);
 	  }
   }
 
@@ -46,7 +47,6 @@ body{
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
-		transform: scale(.50);
 	  }
 	  .sizing{
 		margin-bottom: 0;
@@ -63,6 +63,10 @@ body{
 		cursor: pointer; 
 		transform: scale(.75) !important;
 	   }
+
+	   .smaller{
+		transform: scale(.50);
+	}
   }
   
   .image-container:hover{

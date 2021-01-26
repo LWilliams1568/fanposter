@@ -73,17 +73,17 @@ const App = () => {
 				<MovieListHeading heading='Movies' />
 				<SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
 			</div>
-			<div className='row movie-app sizing'>
+			<div className='row movie-app sizing smaller'>
 				<MovieList
 					movies={movies}
 					handleFavouritesClick={addFavouriteMovie}
 					favouriteComponent={AddFavourites}
 				/>
 			</div>
-			<div className='row d-flex align-items-center mt-4 mb-4 movie app fixMargin'>
+			<div className='row d-flex align-items-center mt-4 mb-4 movie-app fixMargin'>
 				<MovieListHeading heading='Favorites' />
 			</div>
-			<div className='row movie-app sizing '>
+			<div className='row movie-app sizing smaller'>
 				<MovieList
 					movies={favourites}
 					handleFavouritesClick={removeFavouriteMovie}
