@@ -22,7 +22,7 @@ body{
 	position: relative;
 	transition: transform 0.2s;
 	height: 450px !important;
-
+	width: 300px !important;
 	
 }
 
