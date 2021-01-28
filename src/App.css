@@ -22,8 +22,7 @@ body{
 	position: relative;
 	transition: transform 0.2s;
 	transform: scale(.50)!important;
-	margin-top: -150px;
-	margin-bottom: -150px;
+	height: 0px;
 
 	
 }
