@@ -21,9 +21,7 @@ body{
 .image-container{
 	position: relative;
 	transition: transform 0.2s;
-	width: 300px !important;
-	height:445px !important;
-
+	height: 200px !important;
 
 	
 }
