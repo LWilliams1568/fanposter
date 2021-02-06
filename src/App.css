@@ -1,5 +1,5 @@
 body{
-	background: purple;
+	background: black;
 	color: white;
 	overflow-x: hidden;
 	
@@ -23,7 +23,7 @@ body{
 	position: relative;
 	transition: transform 0.2s;
 	height: 250px;
-	width: 50px;
+	width: 200px;
 	
 	
 	
@@ -55,12 +55,14 @@ body{
 .overlay{
 	position: absolute;
 	background: black;
-	width: 100%;
+	height: 250px;
+	width: 200px;
+
 	transition: 0.5s ease;
 	opacity: 0 ;
 	bottom: 0;
 	font-size: 28px;
-	padding:20px;
+
 	text-align: center;
 
 	
