@@ -2,6 +2,7 @@ body{
 	background: green;
 	color: white;
 	overflow-x: hidden;
+	height: 200px;
 	
 }
   
@@ -21,7 +22,7 @@ body{
 .image-container{
 	position: relative;
 	transition: transform 0.2s;
-	height: 200px !important;
+	
 	
 	
 }
@@ -40,7 +41,9 @@ body{
 
 .image-container:hover{
 	cursor: pointer; 
-	transform: scale(1.0);
+	transform: scale(1.1);
+	
+	
 }
   
 .image-container:hover .overlay{
@@ -57,6 +60,8 @@ body{
 	font-size: 28px;
 	padding:20px;
 	text-align: center;
+
+	
 }
 
 
