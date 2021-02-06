@@ -2,7 +2,7 @@ body{
 	background: purple;
 	color: white;
 	overflow-x: hidden;
-	height: 200px;
+	
 	
 }
   
@@ -22,6 +22,8 @@ body{
 .image-container{
 	position: relative;
 	transition: transform 0.2s;
+	height: 250px;
+	width: 50px;
 	
 	
 	
