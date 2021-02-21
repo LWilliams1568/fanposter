@@ -5,6 +5,7 @@ import MovieListHeading from './components/MovieListHeading';
 import SearchBox from './components/SearchBox';
 import AddFavourites from './components/AddFavorites';
 import RemoveFavourites from './components/RemoveFavourites';
+import Logo from './components/logo';
 
 const App = () => {
 	const [movies, setMovies] = useState([]);
@@ -68,9 +69,13 @@ const App = () => {
 	return (
 		<div className='container-fluid '>
 			<div className='row d-flex align-items-center mt-4 movie-app sizing'>
-        
+			<Logo/>
+			<SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
+			</div>
+			<div className='row d-flex align-items-center mt-4 movie-app sizing'>
+			
 				<MovieListHeading heading='Movies' />
-				<SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
+				
 			</div>
 			<div className='row movie-app sizing'>
 				<MovieList
