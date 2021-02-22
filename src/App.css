@@ -71,25 +71,8 @@ body{
 
 @media screen and (max-width: 600px) {
 	.image-container{
-		position:absolute;
+		position: relative;
 		transition: transform 0.2s;
-		height: absolute;
-		width: absolute;
-			
-	}
-
-	.image-container:hover{
-		cursor: pointer; 
-		transform: scale(1.0);
-		
-	}
-	.overlay{
-	
-		height: absolute;
-		width: absolute;
-	
-		font-size: 14px;
-	
 		
 		
 	}
