@@ -73,14 +73,9 @@ body{
 	.image-container{
 		position:absolute;
 		transition: transform 0.2s;
-		height: relative;
-		width: relative;
-		
-	
+		height: absolute;
+		width: absolute;
 			
-	}
-	.mobile{
-		font-size: 30px;
 	}
 
 	.image-container:hover{
@@ -89,18 +84,13 @@ body{
 		
 	}
 	.overlay{
-		position: absolute;
-		background: black;
-		height: relative;
-		width: relative;
 	
-		transition: 0.5s ease;
-		opacity: 0 ;
-		bottom: 0;
+		height: absolute;
+		width: absolute;
+	
 		font-size: 14px;
 	
-		text-align: center;
-	
+		
 		
 	}
 }
