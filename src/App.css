@@ -20,7 +20,7 @@ body{
 }
 
 .image-container{
-	position: absolute;
+	position: relative;
 	transition: transform 0.2s;
 	height: 250px;
 	width: 200px;
@@ -90,13 +90,13 @@ body{
 	.overlay{
 		position: absolute;
 		background: black;
-		height: 148px;
-		width: 100px;
+		height: 250px;
+		width: 200px;
 	
 		transition: 0.5s ease;
 		opacity: 0 ;
 		bottom: 0;
-		font-size: 15px;
+		font-size: 28px;
 	
 		text-align: center;
 	
