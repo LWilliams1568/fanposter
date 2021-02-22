@@ -73,17 +73,12 @@ body{
 	.image-container{
 		position: absolute;
 		transition: transform 0.2s;
-		height: 148px;
-		width: 100px;
+		height: relative;
+		width: relative;
 		
 	}
-	.overlay{
+	
 		
-		height: 148px;
-		width: 100px;
-		font-size: 14px;
-
-		
-	}
+	
 }
 	  
