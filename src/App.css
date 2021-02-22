@@ -73,6 +73,18 @@ body{
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
+		height: 150px;
+		width: 100px;
+	
+			
+	}
+	.mobile{
+		font-size: 30px;
+	}
+
+	.image-container:hover{
+		cursor: pointer; 
+		transform: scale(1.0);
 		
 		
 	}
