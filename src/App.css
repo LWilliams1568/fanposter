@@ -53,7 +53,7 @@ body{
 }
 
 .overlay{
-	position: absolute;
+	position: relative;
 	background: black;
 	width:200px;
 
