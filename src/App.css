@@ -55,7 +55,7 @@ body{
 .overlay{
 	position: absolute;
 	background: black;
-	width:250px;
+	width:200px;
 
 	transition: 0.5s ease;
 	opacity: 0 ;
