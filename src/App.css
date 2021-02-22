@@ -55,8 +55,7 @@ body{
 .overlay{
 	position: absolute;
 	background: black;
-	height: 250px;
-	width: 200px;
+	
 
 	transition: 0.5s ease;
 	opacity: 0 ;
@@ -69,7 +68,15 @@ body{
 }
 
 
-		
+@media screen and (max-width: 600px) {
+	.overlay{
+		position: absolute;
+		background: black;
+		height: 100px;
+		width: 100px;
 	
-
+	
+		
+	}
+}
 	  
