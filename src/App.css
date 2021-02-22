@@ -69,15 +69,6 @@ body{
 }
 
 
-@media screen and (max-width: 600px) {
-	.image-container{
-		position: absolute;
-		transition: transform 0.2s;
-		height: relative;
-		width: relative;
-		
-	}
-	
 		
 	
 }
