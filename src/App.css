@@ -90,13 +90,13 @@ body{
 	.overlay{
 		position: absolute;
 		background: black;
-		height: 250px;
-		width: 200px;
+		height: 148px;
+		width: 100px;
 	
 		transition: 0.5s ease;
 		opacity: 0 ;
 		bottom: 0;
-		font-size: 28px;
+		font-size: 14px;
 	
 		text-align: center;
 	
