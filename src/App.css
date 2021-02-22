@@ -73,7 +73,8 @@ body{
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
-		
+		height: 148px;
+		width: 100px;
 		
 	}
 }
