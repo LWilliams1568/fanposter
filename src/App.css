@@ -71,9 +71,9 @@ body{
 
 @media screen and (max-width: 600px) {
 	.image-container{
-		position: relative;
+		position:fixed;
 		transition: transform 0.2s;
-		height: 150px;
+		height: 148px;
 		width: 100px;
 	
 			
