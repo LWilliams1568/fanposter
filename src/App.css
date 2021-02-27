@@ -56,7 +56,6 @@ body{
 .overlay{
 	position: absolute;
 	background: black;
-	
 
 	transition: 0.5s ease;
 	opacity: 0 ;
@@ -73,7 +72,8 @@ body{
 	.image-container{
 		position: relative;
 		transition: transform 0.2s;
-		
+		height: 50px;
+		width: 50px;
 		
 	}
 	
