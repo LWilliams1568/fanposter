@@ -3,7 +3,7 @@ import React from 'react';
 const AddFavourite = () => {
 	return (
 		<>
-			<span className='mr-2'>Add to Favorites</span>
+			<span >Add to Favorites</span>
 			<svg
 				width='1em'
 				height='1em'
