@@ -68,16 +68,3 @@ body{
 	
 }
 
-
-@media screen and (max-width: 600px) {
-	.overlay{
-		position: absolute;
-		background: black;
-		height: 100px;
-		width: 100px;
-	
-	
-		
-	}
-}
-	  
