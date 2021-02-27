@@ -68,3 +68,19 @@ body{
 	
 }
 
+
+@media screen and (max-width: 600px) {
+	.image-container{
+		position: relative;
+		transition: transform 0.2s;
+		
+		
+	}
+	
+	
+	
+	
+		
+	
+}
+	  
