@@ -74,6 +74,7 @@ body{
 		transition: transform 0.2s;
 		height: relative;
 		width: relative;
+		margin-right: 40px;
 		
 	}
 	
