@@ -1,87 +1,35 @@
-
-body{
-	background: black;
-	color: white;
-	overflow-x: hidden;
-	
-	
-}
-  
-  
-.movie-app::-webkit-scrollbar {
-	display: none;
-}
-  
-  
-.movie-app {
-  -ms-overflow-style: none; 
-  scrollbar-width: none;  
-  flex-wrap: nowrap;
-  overflow: scroll;
+body {
+	background: #141414;
+	color: #ffffff;
 }
 
-.image-container{
+.movie-app > .row {
+	overflow-x: auto;
+	flex-wrap: nowrap;
+}
+
+.image-container {
 	position: relative;
 	transition: transform 0.2s;
-	height: 250px;
-	width: 175px;
-	
-	
-	
 }
 
-
-.sizing{
-	overflow: scroll;
-}
-
-
-.image-container:hover .overlay{
-	opacity: 1;
-}
-
-
-
-.image-container:hover{
-	cursor: pointer; 
+.image-container:hover {
+	cursor: pointer;
 	transform: scale(1.1);
-	
-	
 }
-  
-.image-container:hover .overlay{
+
+.image-container:hover .overlay {
 	opacity: 1;
 }
 
-.overlay{
+.overlay {
 	position: absolute;
-	background: black;
-
+	background: rgba(0, 0, 0, 0.8);
+	width: 100%;
 	transition: 0.5s ease;
-	opacity: 0 ;
+	opacity: 0;
 	bottom: 0;
-	font-size: 28px;
-
+	font-size: 20px;
+	padding: 20px;
 	text-align: center;
-
-	
 }
-
-
-@media screen and (max-width: 600px) {
-	.image-container{
-		position: relative;
-		transition: transform 0.2s;
-		height: relative;
-		width: relative;
-		margin-right: 40px;
-		
-	}
-	
-	
-	
-	
-		
-	
-}
-	  
