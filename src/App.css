@@ -2,10 +2,14 @@ body {
 	background: #141414;
 	color: #ffffff;
 	overflow-x: hidden;
+	
+	
 }
 
 .sizing{
 	overflow: scroll;
+	
+	
 }
 
 .movie-app {
@@ -13,16 +17,22 @@ body {
 	scrollbar-width: none;  
 	flex-wrap: nowrap;
 	overflow: scroll;
+	
+	
+	
 }
 
 .movie-app::-webkit-scrollbar {
 	display: none;
+	
 }
   
 
 .image-container {
 	position: relative;
 	transition: transform 0.2s;
+	transform: scale(1.0);
+	
 }
 
 .image-container:hover {
