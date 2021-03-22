@@ -4,13 +4,10 @@ body {
 	overflow-x: hidden;
 	
 	
-	
 }
 
 .sizing{
 	overflow: scroll;
-	
-	
 	
 	
 }
@@ -20,8 +17,6 @@ body {
 	scrollbar-width: none;  
 	flex-wrap: nowrap;
 	overflow: scroll;
-
-	transform: scale(.70);
 	
 	
 	
@@ -29,7 +24,6 @@ body {
 
 .movie-app::-webkit-scrollbar {
 	display: none;
-
 	
 }
   
@@ -37,7 +31,7 @@ body {
 .image-container {
 	position: relative;
 	transition: transform 0.2s;
-	
+	transform: scale(.90);
 	
 }
 
