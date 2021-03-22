@@ -74,7 +74,7 @@ const App = () => {
 			</div>
 			<div className='row d-flex align-items-center mt-4 movie-app sizing'>
 			
-				<MovieListHeading heading='Movies' />
+				<MovieListHeading heading='Search Results' />
 				
 			</div>
 			<div className='row movie-app sizing'>
